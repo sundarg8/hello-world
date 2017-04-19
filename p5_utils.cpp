@@ -35,7 +35,8 @@ float pf_tt() {
     float tt;
     tt  = ((double)te.tv_sec + 1.0e-9*te.tv_nsec) - ((double)ts.tv_sec + 1.0e-9*ts.tv_nsec);
     //printf("\n\n ---> PROCESS   Time Taken : secs %0.6f , FOR  tries %4d,%03d , size %4d Time %0.6f \n\n", tt,  (usr_num_threads* usr_num_tries*2/1000), ((usr_num_threads* usr_num_tries*2)%1000), sz_malloc ,tt );
-    printf("\n\n ---> PROCESS   Time Taken : secs          , FOR  tries %4d,%03d , size %4d Time %0.6f \n\n", (usr_num_threads* usr_num_tries*2/1000), ((usr_num_threads* usr_num_tries*2)%1000), sz_malloc ,tt );
+    //printf("\n\n ---> PROCESS   Time Taken : secs          , FOR  tries %4d,%03d , size %4d Time %0.6f \n\n", (usr_num_threads* usr_num_tries*2/1000), ((usr_num_threads* usr_num_tries*2)%1000), sz_malloc ,tt );
+    printf("\n\n ---> PROCESS Threads %d  FOR  tries %4d,%03d , size %4d Time %0.6f \n\n", usr_num_threads, (usr_num_threads* usr_num_tries*2/1000), ((usr_num_threads* usr_num_tries*2)%1000), sz_malloc ,tt );
     return tt;
 }
 

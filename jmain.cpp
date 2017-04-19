@@ -25,7 +25,8 @@ int display_jemalloc_version(void);
 
 void *thr_malloc(void *threadid) {
    long tid;
-   tid = (long)threadid;
+   //tid = (long)threadid;
+   tid = (intptr_t)threadid;
 
    pf_ts_th(tid);
 
@@ -51,7 +52,7 @@ int main(int argc, char *argv[])
 
     pthread_attr_t attr;
     void *status;
-    display_jemalloc_version();
+    //display_jemalloc_version();
 
     pf_ts();
 
@@ -61,7 +62,7 @@ int main(int argc, char *argv[])
 
     for( i=0; i < usr_num_threads ; i++ ) {
         cout << "main() : creating thread, " << i << endl;
-        rc = pthread_create(&threads[i], &attr, thr_malloc, (void *)i );
+        rc = pthread_create(&threads[i], &attr, thr_malloc, (void *)(intptr_t)i );
         if (rc){
             cout << "Error:unable to create thread," << rc << endl;
             exit(-1);
@@ -118,9 +119,9 @@ int myMalloc(long tid)
 
 int display_jemalloc_version(void)
 {
-    const char *j;
+    const char *j = "junk";
     size_t s = sizeof(j);
-    mallctl("version", &j,  &s, NULL, 0);
+    //mallctl("version", &j,  &s, NULL, 0);
     printf("tt_th version -- %s\n", j);
 }
 

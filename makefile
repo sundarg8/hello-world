@@ -4,6 +4,6 @@ LDFLAGS=ljemalloc
 DEPS = p5_utils.h
 OBJ  = jmain.o p5_utils.o
 %.o: %.cpp $(DEPS)
-        $(CC)  -c -o $@ $< $(CFLAGS)
-je_malloc : $(OBJ)
-        g++  -std=gnu99 -Wall -Wsign-compare -pipe -O2 -L${JEMALLOC_PATH}/lib -ljemalloc -lrt -o $@ $^ $(CFLAGS)
+	$(CC)  -c -o $@ $< $(CFLAGS)
+myb_je_malloc : $(OBJ)
+	g++  -std=gnu99 -Wall -Wsign-compare -pipe -O2 -L${JEMALLOC_PATH}/lib -ljemalloc -lrt -lpthread -o $@ $^ $(CFLAGS)
