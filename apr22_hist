@@ -1,0 +1,777 @@
+    1  yum install epel-release -y
+    2  yum update -y
+    3   
+    4  reboot
+    5   curl -fssL https://get.docker.com/ | sh
+    6  curl -fssL https://get.docker.com/ | sh
+    7  which curl
+    8  curl -fsSL https://get.docker.com/ | sh
+    9  ping www.yahoo.co
+   10  ping www.yahoo.com
+   11  curl -fsSL https://get.docker.com/ | sh
+   12  systemctl start docker
+   13  systemctl enable docker.service
+   14  docker run hello-world
+   15  yum install python-pip -y
+   16  python
+   17  pip install docker-py
+   18  yum install git -y
+   19  docker images
+   20  docker run -it busybox
+   21  docker images
+   22  docker ps -a
+   23  docker rm $(docker ps -a -q -f status=exited)
+   24  docker ps -a
+   25  docker run -d -P training/webapp python app.py
+   26  docker ps -l
+   27  docker logs grave_stallman
+   28  docker stop grave_stallman
+   29  docker start grave_stallman
+   30  docker ps -l
+   31  docker stop grave_stallman
+   32  docker ps -l
+   33  docker images
+   34  docker rm $(docker ps -a -q -f status=exited)
+   35  docker ps -a
+   36  history
+   37  docker run hello-world
+   38  docker ps -a
+   39  java -version
+   40  python
+   41  whoami
+   42  df -k 
+   43  ifconfig | grep -B 1 inte
+   44  ifconfig | grep -B 1 inet
+   45  ping www.yahoo.com
+   46  docker ps -a
+   47  docker rm $(docker ps -a -q -f status=exited)
+   48  docker ps -a
+   49  docker run -d -p 80:5000 --name web training/webapp python app.py
+   50  docker ps -l
+   51  docker logs web
+   52  docker stop web
+   53  docker ps -l
+   54  docker start web
+   55  docker ps -l
+   56  docker stop web
+   57  docker rm web
+   58  docker ps -l
+   59  docker ps -a
+   60  docker images
+   61  df -k .
+   62  ping www.yahoo.com
+   63  ifconfig | grep -B 1 inet
+   64  ping www.yahoo.com
+   65  curl -fssL https://getdocker.com/ | sh
+   66  sudo su -
+   67  whoami
+   68  yum install epel-release -y
+   69  yum update -y
+   70  curl -fssL https://getdocker.com/ | s
+   71  curl -fssL https://getdocker.com/ | sh
+   72  curl -ssL https://getdocker.com/ | sh
+   73  sudo su -
+   74  curl -fsSL https://get.docker.com/ | sh
+   75  systemctl enable docker.service
+   76  systemctl start docker
+   77  docker run hello-world
+   78  yum install python-pip -y
+   79  pip install docker-py
+   80  yum install git -y
+   81  docker ps -a
+   82  docker images
+   83  ifconfig | grep -B 1 inet
+   84  ping www.yahoo.com
+   85  ping 192.168.199.102
+   86  ping 192.168.99.102
+   87  ping 192.168.99.1
+   88  docker images
+   89  ps -l
+   90  docker ps -;
+   91  docker ps -l
+   92  docker run -d -p 80:5000 --name web training/webapp python app.py
+   93  reboot
+   94  showami
+   95  whoami
+   96  exit
+   97  whoami
+   98  exit
+   99  cd
+  100  pwd
+  101  ls
+  102  pwd
+  103  exit
+  104  cd ../
+  105  bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 3 --partitions 1 --topic my-replicated-topic
+  106  bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic my-replicated-topic
+  107  bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic test
+  108  bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic my-replicated-topic
+  109  ps aux | server
+  110  ps aux | grep server
+  111  ps aux | grep server-1.properties
+  112  ps aux | grep server-2.properties
+  113  ps aux | grep server-1.properties
+  114  ps aux | grep server-2.properties
+  115  bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic my-replicated-topic
+  116  kill -9 17763
+  117  ps aux | grep server-2.properties
+  118  ps aux | grep server-1.properties
+  119  ps
+  120  ps  | grep server-2.properties
+  121  ps -a  | grep server-2.properties
+  122  ps aux  | grep server-2.properties
+  123  ps aux  | grep server-2.properties | head
+  124  ps aux  | grep server-2.properties 
+  125  bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic my-replicated-topic
+  126   kill -9 15600
+  127  bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic my-replicated-topic
+  128  vi bin/kafka-producer-perf-test.sh 
+  129  vi bin/kafka-console-producer.sh 
+  130  cd bin/
+  131  ls
+  132  vi kafka-run-class.sh 
+  133  cd ../config/
+  134  vi zookeeper.properties 
+  135  cd /tmp/
+  136  ls
+  137  cd zookeeper/
+  138  ls
+  139  cd version-2/
+  140  ls
+  141  cd lo
+  142  cd log.1
+  143  ls
+  144  vi log.1 
+  145  cat log.1 | head
+  146  cat log.1 | grep anyone
+  147  vi log.1
+  148  pwd
+  149  cd
+  150  ls
+  151  cd /home/root
+  152  su
+  153  pwd
+  154  whoami
+  155  exit
+  156  whoami
+  157  pwd
+  158  cd
+  159  exit
+  160  whoami
+  161  apt-get install build-essential module-assistant
+  162  yum install build-essential module-assistant
+  163  uname -i
+  164  wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.3-1.el5.rf.ix86_64.rpm
+  165  ping www.google.com
+  166  wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.3-1.el5.rf.ix86_64.rpm
+  167  wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
+  168  pwd
+  169  konsole &
+  170  exit
+  171  vi ~/.bashrc
+  172  vi ~/.vimrc
+  173  exit
+  174  cd /home/sundar/
+  175  ls
+  176  cd Desktop/
+  177  ls
+  178  cd cen-gcc/
+  179  ls
+  180  rm -rf .git/
+  181  ls
+  182  rm -fr test.c 
+  183  ls
+  184  mkdir prg1
+  185  cd ../
+  186  cd cen-gcc/
+  187  ls
+  188  rm -fR prg1/
+  189  mkdir prg3
+  190  ls
+  191  cd prg3/
+  192  ls
+  193  exit
+  194  ping www.google.com
+  195  ping www.google.com
+  196  ping www.google.com
+  197  ping www.google.com
+  198  ping www.google.com
+  199  ping www.google.com
+  200  ping www.google.com
+  201  ping www.google.com
+  202  ping www.google.com
+  203  ping www.google.com
+  204  ping www.google.com
+  205  ping www.google.com
+  206  ping www.google.com
+  207  ping www.google.com
+  208  ping www.google.com
+  209  ping www.google.com
+  210  ping www.google.com
+  211  ping www.google.com
+  212  ping www.google.com
+  213  ping www.google.com
+  214  ping www.google.com
+  215  ping www.google.com
+  216  ping www.google.com
+  217  ping www.google.com
+  218  ping www.google.com
+  219  ping www.google.com
+  220  ping www.google.com
+  221  ping www.google.com
+  222  ping www.google.com
+  223  ping www.google.com
+  224  ping www.google.com
+  225  ping www.google.com
+  226  curl -i https://api.github.com/users/octacat/orgs
+  227  curl -i https://api.github.com/users/octacat/orgs
+  228  curl -i https://api.github.com/users/octacat/orgs
+  229  pwd
+  230  ls
+  231  cd
+  232  pwd
+  233  pwd
+  234  ls
+  235  cd -
+  236  pwd
+  237  pwd
+  238  cd
+  239  cd /
+  240  ls
+  241  cd tmp
+  242  ls
+  243  ls -ltr
+  244  cd ../
+  245  mkdir data
+  246  chmod 777 data
+  247  cd data/
+  248  pwd
+  249  mkdir www
+  250  chmod 777 www
+  251  mkdir images
+  252  chmod 777 images
+  253  ls
+  254  pwd
+  255  ls
+  256  pwd
+  257  pwd
+  258  pwd
+  259  mkdir mygit
+  260  pwd
+  261  ls
+  262  cd mygit/
+  263  ls
+  264  ping www.google.com
+  265  pwd
+  266  git clone -b t1  https://github.com/sundarg8/hello-world.git
+  267  ls
+  268  cd hello-world/
+  269  ls
+  270  ls
+  271  ls
+  272  pwd
+  273  ls -ltr
+  274  mv AsyiAaYBcfGC-BTjgGk3yb8lpaF0M20TWtmXR8bwQN6M.jpg my1.jpg
+  275  pwd
+  276  ls
+  277  git pull
+  278  cat pad1.txt 
+  279  pwd
+  280  ls
+  281  pwd
+  282  pwd
+  283  pwd
+  284  pwd
+  285  ls
+  286  ls
+  287  pwd
+  288  cd
+  289  pwd
+  290  cd /home/sundar/
+  291  ls
+  292  cd v1ng/
+  293  ls
+  294  cd ../
+  295  mv v1ng/ mynginx
+  296  ls
+  297  ls -ltr
+  298  pwd
+  299  pwd
+  300  cd mynginx/
+  301  ls
+  302  uname -r
+  303  lsb_release -a
+  304  sudo yum install epel-release
+  305  ls
+  306  sudo yum install nginx
+  307  cd /etc/nginx/
+  308  ls
+  309  vi nginx.conf
+  310  cd conf.d/
+  311  ls
+  312  cd ../default.d/
+  313  ls
+  314  cd ../
+  315  ls
+  316  vi nginx.conf.default 
+  317  pwd
+  318  systemctl start ngix
+  319  ps | grep nginx
+  320  systemctl start nginx
+  321  ps | grep nginx
+  322  ps | grep nginx
+  323  sudo systemctl start nginx
+  324  ps | grep nginx
+  325  ls
+  326  sudo systemctl status nginx
+  327  sudo systemctl status nginx.service
+  328  ps | grep nginx
+  329  ps
+  330  ps aux | grep nginx
+  331  cd /usr/share/nginx/html/
+  332  ls
+  333  pwd
+  334  iname addr
+  335  if addr
+  336  ip addr | grep "inet " -B 3
+  337  pwd
+  338  pw
+  339  ls
+  340  vi index.html 
+  341  pwd
+  342  ls
+  343  cd ../
+  344  ls
+  345  cd modules/
+  346  ls
+  347  cd ../
+  348  ls
+  349  pwd
+  350  vi /etc/nginx/nginx.conf
+  351  vi /etc/nginx/nginx.conf
+  352  vi ~/.bashrc
+  353  hi reload
+  354  source ~/.bashrc
+  355  hi reload
+  356  hi reload
+  357  pwd
+  358  ls
+  359  pwd
+  360  cd /etc/nginx/
+  361  ls
+  362  vi nginx.conf
+  363  systemctl stop nginx
+  364  systemctl start nginx
+  365  systemctl stop nginx
+  366  systemctl start nginx
+  367  vi nginx.conf
+  368  systemctl stop nginx
+  369  systemctl start nginx
+  370  ip addr | grep "inet "
+  371  pwd
+  372  pwd
+  373  ls
+  374  pwd
+  375  cd /data/www/
+  376  ls
+  377  mkdir logs/
+  378  cd logs
+  379  ls
+  380  vi error.log
+  381  pwd
+  382  vi access.log
+  383  vi /etc/nginx/nginx.conf
+  384  pwd
+  385  cd ../
+  386  ls
+  387  mkdir my2
+  388  cp my1/my1.html my2/
+  389  cd my2
+  390  ls
+  391  vi my1.html 
+  392  systemctl stop nginx
+  393  systemctl start nginx
+  394  systemctl stop nginx
+  395  systemctl start nginx
+  396  vi /etc/nginx/nginx.conf
+  397  systemctl stop nginx
+  398  systemctl start nginx
+  399  pwd
+  400  vi /data/www/logs/error.log 
+  401  vi /etc/nginx/nginx.conf
+  402  vi /etc/nginx/nginx.conf
+  403  pwd
+  404  cd /d
+  405  cd /data
+  406  ls
+  407  cd www/
+  408  ls
+  409  mv logs/ ../
+  410  ls
+  411  cd ../
+  412  ls
+  413  cd logs
+  414  ls
+  415  cd er
+  416  vi error.log 
+  417  sudo nginx -s reload
+  418  vi error.log 
+  419  date
+  420  vi /etc/nginx/nginx.conf
+  421  cd ../www/
+  422  l
+  423  ls
+  424  cd my
+  425  cd my2
+  426  ls
+  427  mv my1.html my2.html
+  428  ls
+  429  vi ~/.bashrc
+  430  src
+  431  source ~/.bashrc
+  432  nc
+  433  sudo nginx -s reload
+  434  vi my2.html 
+  435  sudo nginx -s reload
+  436  systemctl nginx stop
+  437  hi start
+  438  systemctl stop nginx 
+  439  systemctl start nginx 
+  440  vi my2.html 
+  441  pwd
+  442  ls
+  443  nc
+  444  pwd
+  445  ls
+  446  cd /opt/python-virtual-env/
+  447  ls
+  448  ls
+  449  pwd
+  450  ls
+  451  cd
+  452  pwd
+
+  // nginx &&& uwsgi
+
+  453  ls
+  454  mkdir myapp
+  455  ls
+  456  cd myapp/
+  457  ls
+  458  virtualenv myappenv
+  459  python3.6 -m venv myappenv
+  460  cd myappenv/
+  461  ls
+  462  cd ../
+  463  source myappenv/bin/activate
+  464  pip install uwsgi
+  465  uwsgi --version
+  466  pip install uwsgi
+  467  uwsgi --version
+  468  ls
+  469  nano wsgi.py
+  470  vi wsgi.py
+  471  pwd
+  472  ef application(environ, start_response):
+  473      start_response('200 OK', [('Content-Type', 'text/html')])
+  474  uwsgi --socket 0.0.0.0:8080 --protocol=http -w wsgi
+  475  uwsgi --socket 0.0.0.0:8080 --protocol=http -w wsgi
+  476  vi wsgi.py 
+  477  uwsgi --socket localhost:8080 --protocol=http -w wsgi
+  478  pwd
+  479  vi myapp.ini
+  480  uwsgi --ini myapp.ini 
+  481  vi myapp.ini
+  482  uwsgi --ini myapp.ini 
+  483  pwd
+  484  hi | grep mysock
+  485  hi mysock
+  486  hi demoapp.sock
+  487   history | grep sock
+  488  pwd
+  489  ls
+  490  cd myappenv/
+  491  ls
+  492  cd ../
+  493  ls
+  494  vi wsgi.py 
+  495  vi myapp.ini 
+  496  uwsgi --ini myapp.ini 
+  497  vi myapp.ini 
+  498  uwsgi --ini myapp.ini 
+  499  firewall-cmd --list-ports
+  500  firewall-cmd 
+  501  firewall-cmd  --help
+  502  firewall-cmd  --list-all-zones
+  503   ip addr
+  504  firewall-cmd  --get-default-zone
+  505  firewall-cmd  --get-active-zones
+  506  firewall-cmd  --get-zones
+  507  firewall-cmd  --get-zone-of-interface=lo
+  508  netstat -tanpu | grep ":8080"
+  509  ls
+  510  netstat -tanpu 
+  511  grep 8080
+  512  grep 8080 *
+  513  vi myapp.ini 
+  514  uwsgi --ini myapp.ini 
+  515  ls -ltr /tmp/demoapp.sock
+  516  pwd
+  517  cd /tmp/
+  518  ls -ltr
+  519  uwsgi --ini myapp.ini 
+  520  cd -
+  521  uwsgi --ini myapp.ini 
+  522  uwsgi --socket 0.0.0.0:8085 --protocol=http -w wsgi
+  523  ls
+  524  vi wsgi.py 
+  525  ls
+  526  vi myapp.ini 
+  527  pwd
+  528  cd /etc/nginx/
+  529  ls
+  530  ls -ltr
+  531  ls
+  532  pwd
+  533  cd -
+  534  ls
+  535  pwd
+  536  vi wsgi.py 
+  537  cp wsgi.py oldwsgi.pc
+  538  vi wsgi.py 
+  539  uwsgi --socket 0.0.0.0:8085 --protocol=http -w wsgi
+  540  vi myapp.ini 
+  541  hi myapp.ini
+  542  uwsgi --ini myapp.ini 
+  543  vi myapp.ini 
+  544  uwsgi --ini myapp.ini 
+  545  vi wsgi.py 
+  546  uwsgi --ini myapp.ini 
+  547  vi wsgi.py 
+  548  uwsgi --ini myapp.ini 
+  549  ls
+  550  vi oldwsgi.pc 
+  551  vi wsgi.py 
+  552  uwsgi --ini myapp.ini 
+  553  vi myapp
+  554  vi myapp.ini 
+  555  vi wsgi.py 
+  556  vi myapp.ini 
+  557  uwsgi --ini myapp.ini 
+  558  uwsgi --ini myapp.ini 
+  559  uwsgi --ini myapp.ini 
+  560  vi wsgi.py 
+  561  uwsgi --ini myapp.ini 
+  562  uwsgi --ini myapp.ini 
+  563  cd /tmp
+  564  ls
+  565  ls -ltr
+  566  date
+  567  ls *sock*
+  568  cd -
+  569  uwsgi --ini myapp.ini 
+  570  uwsgi --ini myapp.ini 
+  571  pwd
+  572  pwd
+  573  uwsgi --ini myapp.ini 
+  574  pwd
+  575  ls *sock*
+  576  uwsgi --ini myapp.ini 
+  577  uwsgi --ini myapp.ini 
+  578  uwsgi --ini myapp.ini 
+  579  uwsgi --ini myapp.ini 
+  580  uwsgi --ini myapp.ini 
+  581  uwsgi --ini myapp.ini 
+  582  chown -R root:nginx myapp.sock
+  583  uwsgi --ini myapp.ini 
+  584  vi myapp.ini 
+  585  uwsgi --ini myapp.ini 
+  586  vi myapp.ini 
+  587  uwsgi --ini myapp.ini 
+  588  uwsgi --ini myapp.ini 
+  589  uwsgi --ini myapp.ini 
+  590  uwsgi --ini myapp.ini 
+  591  uwsgi --ini myapp.ini 
+  592  uwsgi --ini myapp.ini 
+  593  systemctl start nginx
+  594  ps aux | grep nginx
+  595  systemctl stop nginx
+  596  pwd
+  597  systemctl start nginx
+  598  uwsgi --ini myapp.ini 
+  599  vi myapp.ini 
+  600  vi myapp.ini 
+  601  nc
+  602  systemctl stop nginx
+  603  systemctl start nginx
+  604  systemctl status nginx -l
+  605  nc
+  606  systemctl status nginx -l
+  607  systemctl start nginx
+  608  uwsgi --ini myapp.ini 
+  609  systemctl stop nginx
+  610  systemctl start nginx
+  611  uwsgi --ini myapp.ini 
+  612  systemctl stop nginx
+  613  systemctl start nginx
+  614  uwsgi --ini myapp.ini 
+  615  systemctl stop nginx
+  616  systemctl start nginx
+  617  uwsgi --ini myapp.ini 
+  618  uwsgi --ini myapp.ini 
+  619  nc
+  620  nc
+  621  systemctl stop nginx
+  622  systemctl start nginx
+  623  uwsgi --ini myapp.ini 
+  624  systemctl stop nginx
+  625  setenforce 1
+  626  systemctl start nginx
+  627  pwd
+  628  nc
+  629  ls
+  630  uwsgi --ini myapp.ini 
+  631  pwd
+  632  ls
+  633  pd
+  634  cd /etc/nginx/
+  635  ls
+  636  cp nginx.conf w_set2_nginx_conf_uwsgi
+  637  ls
+  638  cd conf.d/
+  639  l
+  640  ls
+  641  ls
+  642  pwd
+  643  cd ../
+  644  ls
+  645  pwd
+  646  nc
+  647  vi bak1_nginx_conf_file 
+  648  nc
+  649  systemctl start nginx
+  650  uwsgi --ini myapp.ini 
+  651  cd /root/myapp/
+  652  ls
+  653  uwsgi --ini myapp.ini 
+  654  systemctl stop nginx
+  655  systemctl start nginx
+  656  uwsgi --ini myapp.ini 
+  657  systemctl stop nginx
+  658  systemctl start nginx
+  659  uwsgi --ini myapp.ini 
+  660  uwsgi --ini myapp.ini 
+  661  grep 8080 *
+  662  vi myapp.ini 
+  663  uwsgi --ini myapp.ini &
+  664  fg
+  665  uwsgi --ini myapp.ini &
+  666  fg
+  667  uwsgi --ini myapp.ini &
+  668  uwsgi --ini myapp.ini &
+  669  uwsgi --ini myapp.ini &
+  670  uwsgi --ini myapp.ini
+  671  fg
+  672  ps
+  673  uwsgi --ini myapp.ini
+  674  uwsgi --ini myapp.ini
+  675  uwsgi --ini myapp.ini
+  676  uwsgi --ini myapp.ini
+  677  uwsgi --ini myapp.ini
+  678  uwsgi --ini myapp.ini
+  679  uwsgi --ini myapp.ini
+  680  uwsgi --ini myapp.ini
+  681  uwsgi --ini myapp.ini
+  682  uwsgi --ini myapp.ini
+  683  vi v2_app_wsgi.py 
+  684  vi *ini
+  685  uwsgi --ini myapp.ini
+  686  uwsgi --ini myapp.ini
+  687  uwsgi --ini myapp.ini
+  688  uwsgi --ini myapp.ini
+  689  uwsgi --ini myapp.ini
+  690  uwsgi --ini myapp.ini
+  691  ls
+  692  cat data.json 
+  693  vi v2_app_wsgi.py 
+  694  uwsgi --ini myapp.ini
+  695  uwsgi --ini myapp.ini
+  696  uwsgi --ini myapp.ini
+  697  uwsgi --ini myapp.ini
+  698  vi v2_app_wsgi.py 
+  699  uwsgi --ini myapp.ini
+  700  uwsgi --ini myapp.ini
+  701  vi v2_app_wsgi.py 
+  702  vi *ini
+  703  vi v2_app_wsgi.py 
+  704  cp data.json v2data.json
+  705  vi v2data.json 
+  706  vi *ini
+  707  vi v2_app_wsgi.py 
+  708  mv v2data.json f2data.json
+  709  vi f2data.json 
+  710  vi v2_app_wsgi.py 
+  711  cat f2data.json 
+  712  vi f2data.json 
+  713  vi v2_app_wsgi.py 
+  714  uwsgi --ini myapp.ini
+  715  uwsgi --ini myapp.ini
+  716  uwsgi --ini myapp.ini
+  717  uwsgi --ini myapp.ini
+  718  uwsgi --ini myapp.ini
+  719  uwsgi --ini myapp.ini
+  720  uwsgi --ini myapp.ini
+  721  uwsgi --ini myapp.ini
+  722  uwsgi --ini myapp.ini
+  723  uwsgi --ini myapp.ini
+  724  uwsgi --ini myapp.ini
+  725  uwsgi --ini myapp.ini
+  726  uwsgi --ini myapp.ini
+  727  uwsgi --ini myapp.ini
+  728  uwsgi --ini myapp.ini
+  729  uwsgi --ini myapp.ini
+  730  uwsgi --ini myapp.ini
+  731  uwsgi --ini myapp.ini
+  732  uwsgi --ini myapp.ini
+  733  uwsgi --ini myapp.ini
+  734  uwsgi --ini myapp.ini
+  735  history | grep source
+  736  uwsgi --ini myapp.ini
+  737  uwsgi --ini myapp.ini
+  738  uwsgi --ini myapp.ini
+  739  vi *ini
+  740  uwsgi --ini myapp.ini
+  741  ls
+  742  vi *ini
+  743  ls -ltr
+  744  cp v3_app_wsgi.py v2_w_app_wsgi.py
+  745  ls
+  746  vi v3_app_wsgi.py 
+  747  vi v2_w_app_wsgi.py 
+  748  vi v2_w_app_wsgi.py 
+  749  ls
+  750  vi test.py 
+  751  ls
+  752  vi v2_w_app_wsgi.py 
+  753  vi test.py 
+  754  uwsgi --ini myapp.ini
+  755  vi v3_app_wsgi.py 
+  756  uwsgi --ini myapp.ini
+  757  vi v3_app_wsgi.py 
+  758  uwsgi --ini myapp.ini
+  759  vi v3_app_wsgi.py 
+  760  uwsgi --ini myapp.ini
+  761  vi v3_app_wsgi.py 
+  762  uwsgi --ini myapp.ini
+  763  vi v3_app_wsgi.py 
+  764  uwsgi --ini myapp.ini
+  765  uwsgi --ini myapp.ini
+  766  pwd
+  767  ls
+  768  which uwsgi 
+  769  pwd
+  770  ls
+  771  cp -R myapp/ /data/mygit/hello-world/
+  772  cd ../
+  773  cp -R myapp/ /data/mygit/hello-world/
+  774  history > /data/mygit/hello-world/apr22_hist
