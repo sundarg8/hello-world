@@ -1,31 +1,9 @@
+
+http://stackoverflow.com/questions/14716457/how-to-read-json-object-with-a-python-wsgi-application
+
 def application(environ, start_response):
     start_response('200 OK', [('Content-Type', 'text/html')])
     return ["<h1 style='color:blue'>Hello There!</h1>"]
     
 
 https://github.com/sundarg8/hello-world.git
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to V1NG my1 Page!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>Welcome to V1NG! im2..</h1>
-<p>The story starts here....
-... and ends here....</p>
-
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
-
-<p><em>Thank you for using V1NG .</em></p>
-</body>
-</html>
