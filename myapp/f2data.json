@@ -1,0 +1,12 @@
+[
+    {
+        "name": "CSCO", 
+        "shares": 50, 
+        "price": 10.54
+    },
+    {
+        "name": "NEXT", 
+        "shares": 100, 
+        "price": 12.54
+    }
+]

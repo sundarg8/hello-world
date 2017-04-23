@@ -1,0 +1,2 @@
+CREATE TABLE stocks
+                 (name text, shares real, price real);
